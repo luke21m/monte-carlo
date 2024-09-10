@@ -1,9 +1,18 @@
 ## Bitcoin Monte Carlo Simulations
+Install [uv](https://docs.astral.sh/uv/). 
 
 Initialize venv and activate: 
-```uv venv && source .venv/bin/activate```
+```
+uv venv
+```
 
-Install packages with [uv](https://docs.astral.sh/uv/):
-```uv pip sync requirements.lock```
+```
+source .venv/bin/activate
+```
 
-Run `main.py` to generate simulations graph. Run `update_data.py` to update bitcoin price data. 
+Install packages:
+```
+uv pip sync requirements.lock
+```
+
+Run `main.py` to generate simulations graph. Run `update_data.py` to update bitcoin price data.
