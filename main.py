@@ -10,7 +10,7 @@ from scipy.stats import genhyperbolic
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 import matplotlib
-matplotlib.use("TkAgg")
+matplotlib.use("Agg")
 
 
 df_csv  = pd.read_csv("btc_price_data.csv")
