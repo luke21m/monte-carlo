@@ -73,7 +73,7 @@ def graph_simulations(simulation_prices, start_price):
     
     ax.legend()
     # fig.savefig("all_simulations_chart.png")
-    plt.show()
+    fig.savefig("all_simulations_chart.png")
 
 def main():
     simulation_returns = generate_monte_carlo_simulations(add_returns_columns(df), n_sims, n_days)
