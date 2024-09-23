@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "pandas",
+#     "numpy",
+#     "scipy",
+#     "matplotlib",
+# ]
+# ///
 
 ## Bitcoin Monte Carlo ##
 ## 27 August 2024      ##

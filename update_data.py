@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "pandas",
+#     "yfinance",
+# ]
+# ///
 import pandas as pd
 import yfinance as yf
 
