@@ -10,7 +10,6 @@
 
 ## Bitcoin Monte Carlo ##
 ## 27 August 2024      ##
-## LTW                 ##
 
 
 import pandas as pd
@@ -81,7 +80,6 @@ def graph_simulations(simulation_prices, start_price):
         spine.set_color("#bababa")
     
     ax.legend()
-    # fig.savefig("all_simulations_chart.png")
     fig.savefig("all_simulations_chart.png")
 
 def main():
