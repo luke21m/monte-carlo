@@ -1,5 +1,5 @@
 ## Bitcoin Monte Carlo Simulations
-Install [uv](https://github.com/astral-sh/uv) on MacOS or Linux.
+Install [uv](https://github.com/astral-sh/uv) for dependency management.
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
